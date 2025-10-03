@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin: 0 0 2rem;
+}
+section {
+  margin: 2rem auto;
+  max-width: 80vw;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+section:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+/* Accordion */
+.accordion-item {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.accordion-header {
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.accordion-content {
+  display: none;
+  padding: 1rem;
+}
+.accordion-content.open {
+  display: block;
+}
+
+/* Tabs */
+.tab-content {
+  display: none;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  margin-top: 0.5rem;
+}
+.tab-content.active {
+  display: block;
+}
+.tab-btn.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Modal */
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+#modal.open {
+  display: block;
+}
+#modalContent {
+  background: white;
+  padding: 20px;
+  margin: 100px auto;
+  width: 300px;
+  border-radius: 8px;
+}
