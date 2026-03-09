@@ -13,7 +13,7 @@ Dovete trasformare questo JS in componenti REACT
 
 ## ⚠️ Bonus
 
-Se il pulsante della modale invece che all'interno del componente Modal, lo spostiamo all'esterno, come possiamo gestire l'apertura e la chiusura della modale? Prova a risolvere questo problema usando lo stato e i props!
+Se il pulsante della modale invece che all'interno del componente Modal, lo spostiamo all'esterno, come possiamo gestire l'apertura e la chiusura della modale? Prova a risolvere questo problema usando lo stato e le props!
 
 Per l'accordion, usa questo array:
 
